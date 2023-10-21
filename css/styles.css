@@ -367,7 +367,8 @@ img {
 .portfolio-filter-menu {
     display: flex;
     margin-bottom: 72px;
-
+    justify-content: center;
+    gap: 24px;
 }
 
 .portfolio-filter-list {
@@ -384,12 +385,16 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #F4F4FD;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .portfolio-filter-button:hover,
 .portfolio-filter-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent
 }
 
 .portfolio-menu {
