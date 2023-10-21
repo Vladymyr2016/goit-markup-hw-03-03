@@ -234,7 +234,9 @@ img {
     margin-bottom: 8px;
 }
 
-.strategy-list {}
+.strategy-list {
+    width: calc((100% - 72px) / 4);
+}
 
 .strategy-name {
     color: #2E2F42;
@@ -243,6 +245,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 8px;
 }
 
 .strategy-text {
@@ -407,7 +410,7 @@ img {
 .portfolio-list {
     list-style: none;
     gap: 24px;
-
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-container {
@@ -428,6 +431,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8pxж
 }
 
 .portfolio-text {
